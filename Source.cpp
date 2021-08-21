@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -13,35 +13,35 @@ void main()
 
 	int a, b, result;
 	char g;
-	cout << "Ââåäèòå ïåğâîå ÷èñëî: "; cin >> a;
-	cout << "Ââåäèòå îïåğàòîğ: "; cin >> g;
-	cout << "Ââåäèòå âòîğîå ÷èñëî: "; cin >> b;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: "; cin >> a;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€: "; cin >> g;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: "; cin >> b;
 	if (g == '+')
 	{
 		result = a + b;
-		cout << "Îòâåò: " << result << endl;
+		cout << "ĞÑ‚Ğ²ĞµÑ‚: " << result << endl;
 	}
 	else if (g == '-')
 	{
 		result = a - b;
-		cout << "Îòâåò: " << result << endl;
+		cout << "ĞÑ‚Ğ²ĞµÑ‚: " << result << endl;
 	}
 	else if (g == '*')
 	{
 		result = a * b;
-		cout << "Îòâåò: " << result << endl;
+		cout << "ĞÑ‚Ğ²ĞµÑ‚: " << result << endl;
 	}
 	else if (g == '/')
 	{
 		result = a / b;
-		cout << "Îòâåò: " << result << endl;
+		cout << "ĞÑ‚Ğ²ĞµÑ‚: " << result << endl;
 	}
 #endif
 
 #ifdef HOME_2
 	int number, number_agent, p = 0;
 
-	cout << "Ââåäèòå ÷èñëî: "; cin >> number;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: "; cin >> number;
 	number_agent = number;
 
 	while (number)
@@ -52,11 +52,11 @@ void main()
 	
 	if ( number_agent == p )
 	{
-		cout << "Âàøå ÷èñëî ïàëèíäğîì" << endl;
+		cout << "Ğ’Ğ°ÑˆĞµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ°Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼" << endl;
 	}
 	else
 	{
-		cout << "Âàøå ÷èñëî íå ïàëèíäğîì" << endl;
+		cout << "Ğ’Ğ°ÑˆĞµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ½Ğµ Ğ¿Ğ°Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼" << endl;
 	}
 #endif
 	
@@ -68,27 +68,27 @@ void main()
 		key = _getch();
 		if ( (int)key == 119)
 		{
-			cout << "Âïåğ¸ä" << endl;
+			cout << "Ğ’Ğ¿ĞµÑ€Ñ‘Ğ´" << endl;
 		}
 		else if ( (int)key == 97)
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ğ’Ğ»ĞµĞ²Ğ¾" << endl;
 		}
 		else if ( (int)key == 100)
 		{
-			cout << "Âïğàâî" << endl;
+			cout << "Ğ’Ğ¿Ñ€Ğ°Ğ²Ğ¾" << endl;
 		}
 		else if ( (int)key == 115)
 		{
-			cout << "Âíèç" << endl;
+			cout << "Ğ’Ğ½Ğ¸Ğ·" << endl;
 		}
 		else if ( (int)key == 32)
 		{
-			cout << "Ïğûæîê" << endl;
+			cout << "ĞŸÑ€Ñ‹Ğ¶Ğ¾Ğº" << endl;
 		}
 		else if ( (int)key == 13)
 		{
-			cout << "Ñòğåëÿòü" << endl;
+			cout << "Ğ¡Ñ‚Ñ€ĞµĞ»ÑÑ‚ÑŒ" << endl;
 		}
 		
 	} while (true);
